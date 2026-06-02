@@ -6,8 +6,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 FEEDS = [
-    "https://www.ign.com/rss/articles",
-    "https://www.gamespot.com/feeds/mashup/"
+    "https://vigiato.net/feed/"
 ]
 
 def send_message(text):
